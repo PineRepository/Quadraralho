@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Q</title>
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css" />
+    <link rel="stylesheet" href="bower_components/roboto-fontface/css/roboto/roboto-fontface.css" />
+    <link rel="stylesheet" href="/css/master.css">
+    <style media="screen">
+      body
+      {
+        font-family: "Roboto";
+      }
+    </style>
+  </head>
+  <body ng-app="quadro">
+    <div ng-view>
+
+    </div>
+    <script src=bower_components/angular/angular.js ></script>
+    <script src=bower_components/angular-route/angular-route.js ></script>
+    <script src=app/app.js ></script>
+    <script src=app/routes.js ></script>
+    <script src=app/services/CamposFactory.js ></script>
+    <script src=app/controllers/QuadroController.js ></script>
+    <script src=app/directives/QuadroDirective.js ></script>
+    <script src=app/directives/CampoDirective.js ></script>
+  </body>
+</html>
